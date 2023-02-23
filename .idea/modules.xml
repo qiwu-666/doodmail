@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/doodmail.iml" filepath="$PROJECT_DIR$/.idea/doodmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doodmail-common/doodmail-common.iml" filepath="$PROJECT_DIR$/doodmail-common/doodmail-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doodmail-product/doodmail-product.iml" filepath="$PROJECT_DIR$/doodmail-product/doodmail-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+    </modules>
+  </component>
+</project>

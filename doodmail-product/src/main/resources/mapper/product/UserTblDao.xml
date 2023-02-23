@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.doodmail.product.dao.UserTblDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.doodmail.product.entity.UserTblEntity" id="userTblMap">
+        <result property="uUserId" column="u_user_id"/>
+        <result property="uLinkdoodId" column="u_linkdood_id"/>
+        <result property="uUserSecret" column="u_user_secret"/>
+        <result property="uFirstName" column="u_first_name"/>
+        <result property="uLastName" column="u_last_name"/>
+        <result property="uCountryCode" column="u_country_code"/>
+        <result property="uContactNo" column="u_contact_no"/>
+        <result property="uDob" column="u_dob"/>
+        <result property="uLanguageKnown" column="u_language_known"/>
+        <result property="uGender" column="u_gender"/>
+        <result property="uEmailAddress" column="u_email_address"/>
+        <result property="uLastLocation" column="u_last_location"/>
+        <result property="uLastLocationDatetime" column="u_last_location_datetime"/>
+        <result property="uMoney" column="u_money"/>
+        <result property="uStatus" column="u_status"/>
+        <result property="uNId" column="u_n_id"/>
+        <result property="uEnergy" column="u_energy"/>
+        <result property="uLevel" column="u_level"/>
+    </resultMap>
+
+
+</mapper>

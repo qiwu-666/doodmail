@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.doodmail.product.dao.BonusTblDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.doodmail.product.entity.BonusTblEntity" id="bonusTblMap">
+        <result property="btId" column="bt_id"/>
+        <result property="btName" column="bt_name"/>
+        <result property="btValue" column="bt_value"/>
+        <result property="btModifiedDatetime" column="bt_modified_datetime"/>
+        <result property="btRemarks" column="bt_remarks"/>
+    </resultMap>
+
+
+</mapper>

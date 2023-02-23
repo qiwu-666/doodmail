@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="doodmail-common" />
+        <module name="doodmail-product" />
+        <module name="renren-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="doodmail" target="1.5" />
+      <module name="doodmail-common" target="1.5" />
+      <module name="doodmail-product" target="8" />
+      <module name="renren-generator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="doodmail-common" options="" />
+      <module name="doodmail-product" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

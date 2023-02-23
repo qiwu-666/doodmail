@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.doodmail.product.dao.RecordTblDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.doodmail.product.entity.RecordTblEntity" id="recordTblMap">
+        <result property="rtId" column="rt_id"/>
+        <result property="rtPromotionCode" column="rt_promotion_code"/>
+        <result property="rtOtn" column="rt_otn"/>
+        <result property="rtOriPrice" column="rt_ori_price"/>
+        <result property="rtFinalPrice" column="rt_final_price"/>
+        <result property="rtVmType" column="rt_vm_type"/>
+        <result property="rtDatetime" column="rt_datetime"/>
+        <result property="rtInsertedDatetime" column="rt_inserted_datetime"/>
+        <result property="rtProfit" column="rt_profit"/>
+        <result property="rtCurrency" column="rt_currency"/>
+        <result property="rtHash" column="rt_hash"/>
+        <result property="rtInout" column="rt_inout"/>
+        <result property="rtFrom" column="rt_from"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.doodmail.product.dao.TransactionWithdrawTblDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.doodmail.product.entity.TransactionWithdrawTblEntity" id="transactionWithdrawTblMap">
+        <result property="twtId" column="twt_id"/>
+        <result property="twtAdminId" column="twt_admin_id"/>
+        <result property="twtDistributorId" column="twt_distributor_id"/>
+        <result property="twtAmount" column="twt_amount"/>
+        <result property="twtDatetime" column="twt_datetime"/>
+        <result property="twtRemarks" column="twt_remarks"/>
+        <result property="twtReferenceno" column="twt_referenceno"/>
+        <result property="twtAttachment" column="twt_attachment"/>
+    </resultMap>
+
+
+</mapper>

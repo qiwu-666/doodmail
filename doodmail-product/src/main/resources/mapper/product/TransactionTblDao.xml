@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.doodmail.product.dao.TransactionTblDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.doodmail.product.entity.TransactionTblEntity" id="transactionTblMap">
+        <result property="ttId" column="tt_id"/>
+        <result property="ttRtId" column="tt_rt_id"/>
+        <result property="ttUtId" column="tt_ut_id"/>
+        <result property="ttAmount" column="tt_amount"/>
+    </resultMap>
+
+
+</mapper>
